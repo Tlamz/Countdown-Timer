@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ 
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+
+ body{
+    background-image: url(./img/Green.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "poppins";
+ }
+
+ h1 {
+    margin-top: 6rem;
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+ }
+
+ .countdown_container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+ .countdown_container div p {
+    font-size:  5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: -1.5rem;
+ }
+
+ .countdown_container div span {
+    font-size:  1rem;
+    margin-right: 2rem;
+    font-weight: 500;
+ }
+
+
+ @media screen and (max-width: 500px) {
+    h1 {
+        margin-top: 2rem;
+        color: white;
+        font-size: 3rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .countdown_container div p {
+        font-size:  3rem;
+        margin-bottom: -1rem;
+    }
+
+ .countdown_container div span {
+        font-size:  1rem;
+        font-weight: 500;
+    }
+ }
